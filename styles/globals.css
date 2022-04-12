@@ -25,6 +25,7 @@ nav {
   margin: 20px auto 40px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 nav h1 {
   margin-left: 10px;
@@ -58,4 +59,24 @@ nav span {
 /* banner */
 .banner img {
   border-radius: 6px;
+}
+
+@media (max-width: 500px) {
+  .mobile {
+    display: block;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav li.btn {
+    padding: 5px 4px;
+    font-size: 15px;
+  }
+  nav h1 {
+    width: 50px;
+  }
 }
