@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^6.2.9",
     "netlify-cli": "^9.16.4",
     "netlify-identity-widget": "^1.9.2",
     "next": "10.1.2",
