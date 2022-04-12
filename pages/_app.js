@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <AuthContextProvider>
       <Navbar />
-      <Component {...pageProps} key={router.route} />
+      <Component {...pageProps} />
     </AuthContextProvider>
   );
 }
